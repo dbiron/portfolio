@@ -1,0 +1,21 @@
+/*
+Theme Name: Portfolio Ashe
+Description: Theme enfant de Ashe
+Author: Moi
+Author URI: https://www.monsite.com
+Template: Ashe
+Version: 1.0
+Tags: très beau, responsive, diaporama
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    min-width: 100%;
+}
+.textwidget{
+    text-align: justify;
+}
