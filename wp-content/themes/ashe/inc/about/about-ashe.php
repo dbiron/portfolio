@@ -24,9 +24,13 @@ function ashe_about_page_output() {
 
 			<p>
 				<?php /* translators: %s theme name */
-					printf( esc_html__( '%s theme is one of the most Popular Free WordPress theme of 2017-2020 years. To understand better what the theme can offer, please click the button below.', 'ashe' ), esc_html( $theme_data->Name ) );
+					printf( esc_html__( '%s theme is one of the most Popular Free WordPress theme of 2017-2021 years. To understand better what the theme can offer, please click the button below.', 'ashe' ), esc_html( $theme_data->Name ) );
 				?>
 				<br><br><a href="<?php echo esc_url('https://wp-royal.com/themes/ashe-free/demo/?ref=ashe-free-backend-about-theme-prev-btn'); ?>" class="button button-primary button-hero" target="_blank"><?php esc_html_e( 'Theme Demo Preview', 'ashe' ); ?></a>
+			    
+			    <?php /* translators: %s link */
+					printf( __( '<br><br> Live Theme Support <a href="%s" target="_blank" ><b>Chat Now</b></a>', 'ashe' ), esc_url('https://wp-royal.com/ashe-free-theme-live-support/?ref=ashe-free-backend-live-chat/') );
+				?>
 			</p>
 		</div>
 
